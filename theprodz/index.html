@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm a Photographer</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="lightbox2-2.11.4/lightbox2-2.11.4/dist/css/lightbox.css">
+
+</head>
+<body>
+    
+    <!-- header -->
+    <header id = "header" class = "vh-100 flex">
+        <div class = "container">
+            <div class = "header-content">
+                <h1>I'm a <br><span class = "typewrite" data-loop = "yes" data-speed = "100" data-delay = "2000" data-words = '["photographer", "videographer", "video editor", "Graphic Designer"]'></span></h1>
+                <h3>DAVE ZEUS NADURA</h3>
+                <p class = "lead"><i class = "fas fa-phone-alt"></i> 091507548542 </p>
+                <p class = "lead"><i class = "fas fa-envelope"></i> davezeusnadura12@gmail.com</p>
+
+                <ul class = "social-links">
+                    <li>
+                        <a href = "https://www.facebook.com/zeusdave.12/" class = "flex">
+                            <i class = "fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "https://lightroom.adobe.com/u/davezeusnadura" class = "flex">
+                            <i class = "fab fa-behance"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "https://www.instagram.com/zeusssieee/" class = "flex">
+                            <i class = "fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "https://www.pinterest.ph/zeusssieee/" class = "flex">
+                            <i class = "fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- main content -->
+    <main>
+        <!-- about section -->
+        <section id = "about" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src = "images/aboutpic.jpg" alt = "">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>About Me</h2>
+                        </div>
+                        <p class = "lead2">"Hey there! I'm Zeus, a 22-year-old freelance photographer based in the vibrant city of Iloilo. With an insatiable passion for capturing extraordinary moments, I strive to merge artistic sensibilities with meticulous attention to detail to create captivating imagery.</p>
+                        <br>
+                        <p class = "lead2">Welcome to my photography showcase—a space where I'm excited to share my passion for photography with you. Through my lens, I aim to uncover the beauty that lies within the everyday, capturing the extraordinary in the seemingly ordinary. Join me as we embark on this artistic adventure together, and let my photographs speak volumes about the world as I see it."</p>
+                        <a href = "#work" class = "btn-down">
+                            <i class = "fas fa-chevron-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of about section -->
+
+        <!-- work section -->
+        <section id = "work" class = "vh-100 flex py-7">
+            <div class = "container">
+                <div class = "work-content">
+                    <div class = "title">
+                        <h2>what am i doing?</h2>
+                    </div>
+                    <ul class = "work-top grid">
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> Fun shoots: Capturing joy and spontaneity in unforgettable moments.</li>
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> Portraits: Unique personalities and emotions in captivating images.</li>
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> Product Photography: Showcasing products with captivating visuals that engage and inspire.</li>
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> Events: Showcasing products with captivating visuals that engage and inspire.</li>
+                    </ul>
+
+                    <div class = "work-bottom grid">
+                        <div>
+                            <span class = "icon"><img src = "images/camera.png"></span>
+                            <h3>Fun Shoots</h3>
+                        </div>
+                        <div>
+                            <span class = "icon"><img src = "images/portrait-icon.png"></span>
+                            <h3>Portrait</h3>
+                        </div>
+                        <div>
+                            <span class = "icon"><img src = "images/studio.png"></span>
+                            <h3>Product Photography</h3>
+                        </div>
+                        <div>
+                            <span class = "icon"><img src = "images/events.png"></span>
+                            <h3>Events</h3>
+                        </div>
+                    </div>
+                    <a href = "#portfolio" class = "btn-down btn-down-white">
+                        <i class = "fas fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- end of work section -->
+
+        <!-- portfolio section -->
+        <section id = "portfolio" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>my works</h2>
+                    </div>
+
+                    <div class="portfolio-categories">
+                        <h3>Categories</h3>
+                        <ul>
+                          <li><a href="#" class="active" data-category="all">All</a></li>
+                          <li><a href="#" data-category="funshoots">Fun Shoots</a></li>
+                          <li><a href="#" data-category="portraits">Portraits</a></li>
+                          <li><a href="#" data-category="productshoots">Product Shoots</a></li>
+                          <li><a href="#" data-category="events">Events</a></li>
+                        </ul>
+                      </div>
+                      <a href = "#insta" class = "btn-down btn-down-black">
+                        <i class = "fas fa-chevron-down"></i>
+                    </a>
+                
+                      <!-- <div class="portfolio-grid grid">
+                        <div class="item funshoots"><img src="images/port-1.jpg"></div>
+                        <div class="item portraits"><img src="images/port-2.jpg"></div>
+                        <div class="item productshoots"><img src="images/port-3.jpg"></div>
+                        <div class="item events"><img src="images/port-4.jpg"></div>
+                        <div class="item funshoots"><img src="images/port-5.jpg"></div>
+                        <div class="item portraits"><img src="images/port-6.jpg"></div>
+                        <div class="item productshoots"><img src="images/port-7.jpg"></div>
+                      </div> -->
+                </div>
+
+                <div class="portfolio-grid grid">
+                    <div class="item funshoots">
+                      <a href="images/funshoots/fun1.jpg" data-lightbox="funshoots-group">
+                        <img src="images/funshoots/fun1.jpg" alt="Fun Shoot 1">
+                      </a>
+                    </div>
+                    <div class="item portraits">
+                      <a href="images/portraits/port2.jpg" data-lightbox="portraits-group">
+                        <img src="images/portraits/port2.jpg" alt="Portrait 1">
+                      </a>
+                    </div>
+                    <div class="item productshoots">
+                        <a href="images/productshoots/prod1.jpg" data-lightbox="productshoots-group">
+                          <img src="images/productshoots/prod1.jpg" alt="Product 1">
+                        </a>
+                    </div>
+                    <div class="item events">
+                        <a href="images/events/event1.jpg" data-lightbox="events-group">
+                          <img src="images/events/event1.jpg" alt="Events 1">
+                        </a>
+                    </div>
+
+                    <!-- //2nd row -->
+                    <div class="item funshoots">
+                        <a href="images/funshoots/fun2.jpg" data-lightbox="funshoots-group">
+                          <img src="images/funshoots/fun2.jpg" alt="Fun Shoot 2">
+                        </a>
+                    </div>
+                    <div class="item portraits">
+                        <a href="images/portraits/port3.jpg" data-lightbox="portraits-group">
+                          <img src="images/portraits/port3.jpg" alt="Portrait 2">
+                        </a>
+                    </div>
+                    <div class="item productshoots">
+                        <a href="images/productshoots/prod4.jpg" data-lightbox="productshoots-group">
+                          <img src="images/productshoots/prod4.jpg" alt="Product 2">
+                        </a>
+                    </div>
+                    <div class="item events">
+                        <a href="images/events/event2.jpg" data-lightbox="events-group">
+                          <img src="images/events/event2.jpg" alt="Events 1">
+                        </a>
+                    </div>
+
+                    <!-- //3rd row -->                 
+                    <div class="item funshoots">
+                        <a href="images/funshoots/fun3.jpg" data-lightbox="funshoots-group">
+                          <img src="images/funshoots/fun3.jpg" alt="Fun Shoot 2">
+                        </a>
+                    </div>
+                    <div class="item portraits">
+                        <a href="images/portraits/port4.jpg" data-lightbox="portraits-group">
+                          <img src="images/portraits/port4.jpg" alt="Portrait 2">
+                        </a>
+                    </div>
+                    <div class="item productshoots">
+                        <a href="images/productshoots/prod29.jpg" data-lightbox="productshoots-group">
+                          <img src="images/productshoots/prod29.jpg" alt="Product 2">
+                        </a>
+                    </div>
+                    <div class="item events">
+                        <a href="images/events/event5.jpg" data-lightbox="events-group">
+                          <img src="images/events/event5.jpg" alt="Events 1">
+                        </a>
+                    </div>
+
+                    <!-- //4th row -->             
+                    <div class="item funshoots">
+                        <a href="images/funshoots/fun4.jpg" data-lightbox="funshoots-group">
+                          <img src="images/funshoots/fun4.jpg" alt="Fun Shoot 2">
+                        </a>
+                    </div>
+                    <div class="item portraits">
+                        <a href="images/portraits/port7.jpg" data-lightbox="portraits-group">
+                          <img src="images/portraits/port7.jpg" alt="Portrait 2">
+                        </a>
+                    </div>
+                    <div class="item productshoots">
+                        <a href="images/productshoots/prod25.jpg" data-lightbox="productshoots-group">
+                          <img src="images/productshoots/prod25.jpg" alt="Product 2">
+                        </a>
+                    </div>
+                    <div class="item events">
+                        <a href="images/events/event13.jpg" data-lightbox="events-group">
+                          <img src="images/events/event13.jpg" alt="Events 1">
+                        </a>
+                    </div>
+            </div>
+        </section>
+        <!-- end of portfolio section -->
+
+        <!-- contact section -->
+        <!-- <section id = "contact" class = "py-7">
+            <div class = "container">
+                <div class = "contact-content flex">
+                    <div class = "contact-left">
+                        <div class="title">
+                            <h2>contact with me</h2>
+                        </div>
+                        <p class = "lead"><i class = "fas fa-phone-alt"></i> +001 343 (7485)</p>
+                        <p class = "lead"><i class = "fas fa-envelope"></i> contact@gmail.com</p>
+                        <form action="">
+                            <input type = "text" class = "form-control" placeholder="Your name here ...">
+                            <input type = "email" class = "form-control" placeholder="Your email here">
+                            <input type = "submit" class = "btn-submit btn" value = "Submit">
+                        </form>
+                    </div>
+
+                    <div class = "contact-right">
+                        <img src = "images/contact-pic.jpg" alt = "contact image">
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- end of contact section -->
+
+        <!-- instagram section -->
+        <section id = "insta" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>instagram</h2>
+                        <a href = "#footer" class = "btn-down btn-down-white">
+                            <i class = "fas fa-chevron-down"></i>
+                        </a>
+                    </div>
+                    <div class = "insta-grid grid">
+                        <div><img src = "images/insta1.jpg"></div>
+                        <div><img src = "images/insta2.jpg"></div>
+                        <div><img src = "images/insta3.jpg"></div>
+                        <div><img src = "images/insta4.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of instagram section -->
+    </main>
+    <!-- end of main content -->
+
+    <!-- footer -->
+    <footer id = "footer" class = "py-7">
+        <div class = "container">
+            <div class = "footer-content">
+                <div>
+                    <h3>DAVE ZEUS NADURA</h3>
+                    <div><img src = "images/aboutpic.jpg"></div>
+                </div>
+
+                <div>
+                    <!-- <h3>Links</h3>
+                    <ul class = "flex">
+                        <li><a href = "#">About Me</a></li>
+                        <li><a href = "#">Work</a></li>
+                        <li><a href = "#">Portfolio</a></li>
+                        <li><a href = "#">Contact Me</a></li>
+                        <li><a href = "#">Instagram</a></li>
+                    </ul>
+                </div> -->
+                &copy; 2023 DAVE ZEUS NADURA. All rights reserved.
+            </div>
+        </div>
+
+    </footer>
+    <!-- end of footer -->
+
+
+    <!-- typewriting js -->
+    <script src = "typewriting-master/typewriting.js"></script>
+    <script src="js/script.js"></script>
+    <script src="lightbox2-2.11.4/lightbox2-2.11.4/dist/js/lightbox-plus-jquery.js"></script>
+</body>
+</html>
